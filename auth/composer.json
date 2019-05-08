@@ -1,0 +1,25 @@
+{
+    "name": "detalika/auth",
+    "description": "Module for authentifaction and registration",
+    "type": "yii2-extension",
+    "minimum-stability": "stable",
+    "require": {
+        "yiisoft/yii2": "@dev",
+        "yiisoft/yii2-jui": "~2.0.0",
+        "dektrium/yii2-user": "0.9.*@dev",
+        "himiklab/yii2-ipgeobase-component" : "*",
+        "himiklab/yii2-recaptcha-widget": "*",
+        "execut/yii2-actions": "dev-master"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@detalika.ru:auth"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "detalika\\auth\\": ""
+        }
+    }
+}

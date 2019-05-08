@@ -1,0 +1,31 @@
+{
+    "name": "detalika/delivery",
+    "description": "Module for delivery administration",
+    "type": "yii2-extension",
+    "minimum-stability": "dev",
+    "require": {
+        "yiisoft/yii2": "@dev",
+        "execut/yii2-actions": "dev-master",
+        "execut/yii2-migration": "dev-master",
+        "detalika/base": "dev-master",
+        "kartik-v/yii2-date-range" : "@dev",
+        "unclead/yii2-multiple-input": "dev-master",
+        "la-haute-societe/yii2-save-relations-behavior": "@dev",
+        "yiisoft/yii2-faker": "~2.0.0"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@detalika.ru:base.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@github.com:execut/yii2-actions.git"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "detalika\\delivery\\": ""
+        }
+    }
+}

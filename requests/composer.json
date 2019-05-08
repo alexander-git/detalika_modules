@@ -1,0 +1,35 @@
+{
+    "name": "detalika/requests",
+    "description": "Module for requests administration",
+    "type": "yii2-extension",
+    "minimum-stability": "dev",
+    "require": {
+        "yiisoft/yii2": "@dev",
+        "execut/yii2-actions": "dev-master",
+        "execut/yii2-migration": "dev-master",
+        "kartik-v/yii2-date-range" : "@dev",
+        "kartik-v/yii2-field-range": "@dev",
+        "unclead/yii2-multiple-input": "dev-master",
+        "la-haute-societe/yii2-save-relations-behavior": "@dev",
+        "detalika/picking": "dev-master"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com:execut/yii2-actions.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/execut/yii2-multiple-input.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@detalika.ru:picking.git"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "detalika\\requests\\": ""
+        }
+    }
+}

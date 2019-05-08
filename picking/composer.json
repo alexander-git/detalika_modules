@@ -1,0 +1,15 @@
+{
+    "name": "detalika/picking",
+    "description": "Module for picking",
+    "type": "yii2-extension",
+    "minimum-stability": "dev",
+    "require": {
+        "yiisoft/yii2": "@dev",
+        "execut/yii2-migration": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "detalika\\picking\\": ""
+        }
+    }
+}
